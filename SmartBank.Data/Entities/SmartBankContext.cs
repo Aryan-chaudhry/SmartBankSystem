@@ -90,6 +90,7 @@ public partial class SmartBankContext : DbContext
                 .HasConstraintName("FK_Accounts_Users");
         });
 
+
         modelBuilder.Entity<AuditLog>(entity =>
         {
             entity.HasKey(e => e.AuditLogId).HasName("PK__AuditLog__EB5F6CBD96432931");
