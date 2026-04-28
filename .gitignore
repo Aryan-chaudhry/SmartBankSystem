@@ -1,0 +1,132 @@
+# =========================
+
+# .NET / C# Build Artifacts
+
+# =========================
+
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =========================
+
+# User-specific files
+
+# =========================
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+
+# Rider / VS Code / VS
+
+# =========================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# Visual Studio (Mac/Windows)
+
+.vs/
+
+# =========================
+
+# OS files (macOS)
+
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# Environment files
+
+# =========================
+
+.env
+.env.*
+
+# =========================
+
+# NuGet
+
+# =========================
+
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# =========================
+
+# EF Core
+
+# =========================
+
+Migrations/*Snapshot.cs
+
+# =========================
+
+# Publish / Build outputs
+
+# =========================
+
+publish/
+dist/
+
+# =========================
+
+# Temporary files
+
+# =========================
+
+tmp/
+temp/
+
+# =========================
+
+# Test results
+
+# =========================
+
+TestResults/
+coverage/
+
+# =========================
+
+# Secrets (IMPORTANT)
+
+# =========================
+
+appsettings.Development.json
+secrets.json
+
+# =========================
+
+# Node (if used in MVC frontend)
+
+# =========================
+
+node_modules/
+npm-debug.log
+yarn-error.log
