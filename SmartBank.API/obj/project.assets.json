@@ -4278,35 +4278,42 @@
     ]
   },
   "packageFolders": {
-    "/Users/parthsaini/.nuget/packages/": {}
+    "C:\\Users\\ARYAN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/parthsaini/Desktop/Sprint_Project/SmartBank/SmartBankSystem/SmartBank.API/SmartBank.API.csproj",
+      "projectUniqueName": "C:\\SmartBank\\SmartBankSystem\\SmartBank.API\\SmartBank.API.csproj",
       "projectName": "SmartBank.API",
-      "projectPath": "/Users/parthsaini/Desktop/Sprint_Project/SmartBank/SmartBankSystem/SmartBank.API/SmartBank.API.csproj",
-      "packagesPath": "/Users/parthsaini/.nuget/packages/",
-      "outputPath": "/Users/parthsaini/Desktop/Sprint_Project/SmartBank/SmartBankSystem/SmartBank.API/obj/",
+      "projectPath": "C:\\SmartBank\\SmartBankSystem\\SmartBank.API\\SmartBank.API.csproj",
+      "packagesPath": "C:\\Users\\ARYAN\\.nuget\\packages\\",
+      "outputPath": "C:\\SmartBank\\SmartBankSystem\\SmartBank.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/parthsaini/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ARYAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/parthsaini/Desktop/Sprint_Project/SmartBank/SmartBankSystem/SmartBank.Data/SmartBank.Data.csproj": {
-              "projectPath": "/Users/parthsaini/Desktop/Sprint_Project/SmartBank/SmartBankSystem/SmartBank.Data/SmartBank.Data.csproj"
+            "C:\\SmartBank\\SmartBankSystem\\SmartBank.Data\\SmartBank.Data.csproj": {
+              "projectPath": "C:\\SmartBank\\SmartBankSystem\\SmartBank.Data\\SmartBank.Data.csproj"
             },
-            "/Users/parthsaini/Desktop/Sprint_Project/SmartBank/SmartBankSystem/SmartBank.Models/SmartBank.Models.csproj": {
-              "projectPath": "/Users/parthsaini/Desktop/Sprint_Project/SmartBank/SmartBankSystem/SmartBank.Models/SmartBank.Models.csproj"
+            "C:\\SmartBank\\SmartBankSystem\\SmartBank.Models\\SmartBank.Models.csproj": {
+              "projectPath": "C:\\SmartBank\\SmartBankSystem\\SmartBank.Models\\SmartBank.Models.csproj"
             }
           }
         }
@@ -4321,7 +4328,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -4371,7 +4378,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
