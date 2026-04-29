@@ -15,6 +15,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IProfileService, ProfileService>();
+builder.Services.AddScoped<IKYCService, KYCService>();
+
+
 builder.Services.AddScoped<IAccountService, AccountService>();
 
 builder.Services.AddAuthentication("Bearer")

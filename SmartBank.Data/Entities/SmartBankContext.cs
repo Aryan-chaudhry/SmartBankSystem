@@ -49,7 +49,7 @@ public partial class SmartBankContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost,1433;Database=SmartOnlineBankingDb;User Id=sa;Password=YourStrongPassw0rd@123;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-DB8HM32\\SQLEXPRESS; Initial Catalog=SmartOnlineBankingDb; TrustServerCertificate=True; Integrated Security=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

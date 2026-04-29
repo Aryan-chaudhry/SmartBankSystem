@@ -24,6 +24,8 @@ namespace SmartBank.Data.DTO
 
         public DateTime? CreatedAt { get; set; }
 
+        
+
     }
 
 }
