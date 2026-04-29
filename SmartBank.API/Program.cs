@@ -18,6 +18,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddScoped<IKYCService, KYCService>();
 builder.Services.AddScoped<IApplyLoanService, ApplyLoanService>();
+builder.Services.AddScoped<IRaiseTicketService, RaiseTicketService>();
 
 builder.Services.AddScoped<IAccountService, AccountService>();
 
