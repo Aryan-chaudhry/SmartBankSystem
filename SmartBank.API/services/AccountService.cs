@@ -1,5 +1,6 @@
 using System.Security.Cryptography;
 using Azure.Core;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartBank.Data.DTO;
@@ -32,6 +33,12 @@ namespace SmartBank.API.services
             {
                 if(request is null) return null;
                 if(request.AccountType == null)
+                {
+                    return null;
+                }
+
+                var user = await _context.Users.FindAsync(request.UserId);
+                if(user is null)
                 {
                     return null;
                 }
@@ -74,6 +81,7 @@ namespace SmartBank.API.services
                 account.UpdatedAt = DateTime.UtcNow;
 
                 _context.Accounts.Add(account);
+                user.Accounts.Add(account);
 
                 var response = await _context.SaveChangesAsync();
                 Console.WriteLine(response);

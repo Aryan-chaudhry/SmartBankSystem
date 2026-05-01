@@ -5,7 +5,6 @@ using Microsoft.IdentityModel.Tokens;
 using SmartBank.API.services;
 using SmartBank.Data.Entities;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,8 +18,9 @@ builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddScoped<IKYCService, KYCService>();
 builder.Services.AddScoped<IApplyLoanService, ApplyLoanService>();
 builder.Services.AddScoped<IRaiseTicketService, RaiseTicketService>();
-
+builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IReportService, ReportService>();
 
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer(options =>
