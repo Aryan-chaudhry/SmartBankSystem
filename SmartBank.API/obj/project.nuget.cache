@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DM47YGHDcy4=",
+  "dgSpecHash": "LPvZmaprLJw=",
   "success": true,
-  "projectFilePath": "C:\\SmartBank\\SmartBankSystem\\smartBank.api\\SmartBank.API.csproj",
+  "projectFilePath": "C:\\SmartBank\\SmartBankSystem\\smartbank.api\\SmartBank.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ARYAN\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\ARYAN\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

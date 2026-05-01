@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SmartBank\\SmartBankSystem\\smartBank.api\\SmartBank.API.csproj": {}
+    "C:\\SmartBank\\SmartBankSystem\\smartbank.api\\SmartBank.API.csproj": {}
   },
   "projects": {
-    "C:\\SmartBank\\SmartBankSystem\\smartBank.api\\SmartBank.API.csproj": {
+    "C:\\SmartBank\\SmartBankSystem\\smartbank.api\\SmartBank.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SmartBank\\SmartBankSystem\\smartBank.api\\SmartBank.API.csproj",
+        "projectUniqueName": "C:\\SmartBank\\SmartBankSystem\\smartbank.api\\SmartBank.API.csproj",
         "projectName": "SmartBank.API",
-        "projectPath": "C:\\SmartBank\\SmartBankSystem\\smartBank.api\\SmartBank.API.csproj",
+        "projectPath": "C:\\SmartBank\\SmartBankSystem\\smartbank.api\\SmartBank.API.csproj",
         "packagesPath": "C:\\Users\\ARYAN\\.nuget\\packages\\",
-        "outputPath": "C:\\SmartBank\\SmartBankSystem\\smartBank.api\\obj\\",
+        "outputPath": "C:\\SmartBank\\SmartBankSystem\\smartbank.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
